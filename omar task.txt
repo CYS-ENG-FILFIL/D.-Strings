@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string a={"Omar"};
+	string b={"Filfil"};
+	string c=a+b;
+	cout<<a.size()<<"  "<<b.size()<<endl;
+	cout<<c<<endl;
+	cout<<b.at(b.size()-6)<<a[1]<<a[2]<<a[3]<<" ";
+	
+	cout<<a.at(a.size()-4)<<b[1]<<b[2]<<b[3]<<b[4]<<b[5]<<endl;
+ 	
+ 	return 0;
+
+}
